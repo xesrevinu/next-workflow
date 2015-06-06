@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha -c -u bdd --require should ./test/test-babel --bail --harmony -t 5000",
-    "build": "./node_modules/.bin/babel ./src --out-dir ./lib",
+    "build": "npm run test && ./node_modules/.bin/babel ./src --out-dir ./lib",
     "build-watch": "./node_modules/.bin/babel ./src --out-dir ./lib --watch",
     "eslint": "./node_modules/.bin/eslint -f stylish ./src/*.js"
   },
