@@ -1,6 +1,8 @@
 # javascript-workflow
 
 ***
+[![build status][travis-image]][travis-url]
+
 ## next javascript 工作流
 
 ## 使用
@@ -21,3 +23,5 @@ npm run build
 ```js
 npm run build-watch
 ```
+[travis-image]:https://img.shields.io/travis/xiaokekeT/next-workflow/master.svg?style=flat-square
+[travis-url]:https://travis-ci.org/xiaokekeT/next-workflow
