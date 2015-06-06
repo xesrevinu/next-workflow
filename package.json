@@ -1,0 +1,38 @@
+{
+  "name": "esnext-workflow",
+  "version": "0.0.1",
+  "description": "A simple workflow to work with ES6 using Babel",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -c -u bdd --require should ./test/test-babel --bail --harmony -t 5000",
+    "build": "./node_modules/.bin/babel ./src --out-dir ./lib",
+    "build-watch": "./node_modules/.bin/babel ./src --out-dir ./lib --watch",
+    "eslint": "./node_modules/.bin/eslint -f stylish ./src/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaokekeT/next-workflow.git"
+  },
+  "keywords": [
+    "es6",
+    "babel",
+    "workflow"
+  ],
+  "author": "xiaokekeT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaokekeT/next-workflow/issues"
+  },
+  "homepage": "https://github.com/xiaokekeT/next-workflow",
+  "devDependencies": {
+    "babel": "^5.5.4",
+    "babel-eslint": "^3.1.13",
+    "eslint": "^0.22.1",
+    "eslint-stylish": "^0.2.0",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.27"
+  }
+}
