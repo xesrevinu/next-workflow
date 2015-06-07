@@ -1,5 +1,5 @@
 {
-  "name": "esnext-workflow",
+  "name": "next-workflow",
   "version": "0.0.1",
   "description": "A simple workflow to work with ES6 using Babel",
   "main": "lib/index.js",
