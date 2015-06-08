@@ -51,6 +51,10 @@ npm run build
 ``
 npm run build-watch
 ``
+### 语法检查
+``
+npm run eslint
+``
 
 [1]: https://github.com/lukehoban/es6features "这里"
 [travis-image]:https://img.shields.io/travis/xiaokekeT/next-workflow/master.svg?style=flat-square
