@@ -1,9 +1,9 @@
 #next workflow
-一个为追求快速开发node模块 or JS应用打造的工作环境(使用最新的ES6甚至更加新的ES7...)
-采用babel编译代码,让你可以用es6甚至es7写代码
+一个为快速开发打造的javascript工作环境,采用babel编译代码,让你可以用ES6甚至ES7写代码
 fork项目,基于这个模板编写你的javascript应用或者Node模块
 
 ***
+
 [![build status][travis-image]][travis-url]
 
 ##目录介绍
@@ -12,7 +12,7 @@ lib/
 src/
 test/
 ```
-先从src说起,你的项目代码都写在`` src ``里面,得益于babel你可以使用最新的ES6语法,没了解过的可以到[这里][1]看下.
+先从`` src ``说起,你的项目代码都写在`` src ``里面,得益于babel你可以使用最新的ES6语法,没了解过的可以到[这里][1]看下.
 write code......done
 代码写了,怎么运行呢?
 
